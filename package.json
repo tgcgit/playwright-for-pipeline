@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ts-pipeline",
+  "version": "1.0.0",
+  "description": "Default Playwright Project for pipeline execution",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install && npx -y playwright install && npx Playwright test"
+  },
+  "keywords": [],
+  "author": "Dr. Chikkanna",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
