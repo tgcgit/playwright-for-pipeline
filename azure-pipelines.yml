@@ -16,9 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npx playwright install --with-deps
-    npx playwright test
+    npm run test
   displayName: 'Installing Playwright, Browsers & running...'
 
 - task: PublishBuildArtifacts@1
