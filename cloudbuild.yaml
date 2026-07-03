@@ -23,7 +23,7 @@ steps:
 
 artifacts:
   objects:
-    location: gs://playwright-report-bucket/playwright-report
+    location: gs://playwright-report-bucket11/playwright-report
     paths:
       - playwright-report/**
       - test-results/**
