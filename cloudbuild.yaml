@@ -1,23 +1,11 @@
 steps:
-- name: node:22
+- name: mcr.microsoft.com/playwright:v1.54.2-jammy
   entrypoint: bash
   args:
     - "-c"
     - |
       npm install
-
-- name: node:22
-  entrypoint: bash
-  args:
-    - "-c"
-    - |
       npx playwright install --with-deps
-
-- name: node:22
-  entrypoint: bash
-  args:
-    - "-c"
-    - |
       npx playwright test
 
 options:
