@@ -13,7 +13,7 @@ options:
 
 artifacts:
   objects:
-    location: gs://playwright-report-bucket11/playwright-report
+    location: gs://playwrightbucket123/playwright-report
     paths:
       - playwright-report/**
       - test-results/**
